@@ -6,7 +6,6 @@ export const SearchbarHeader = styled.header`
   position: sticky;
   z-index: 1100;
   display: flex;
-  justify-content: center;
   align-items: center;
   min-height: 64px;
   padding-right: 24px;
@@ -81,16 +80,15 @@ export const MoviesGalleryContainer = styled.ul`
   grid-gap: 16px;
   margin-top: 0;
   margin-bottom: 0;
-  padding: 0;
-  list-style: none;
+  padding-left: 30px;
+  padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
 `;
 
 export const MoviesGalleryItem = styled.li`
-  border-radius: 2px;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  font: inherit;
+  font-size: 16px;
 `;
 
 export const ImageGalleryItemimage = styled.img`
@@ -98,7 +96,6 @@ export const ImageGalleryItemimage = styled.img`
   height: 260px;
   object-fit: cover;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   :hover {
     transform: scale(1.03);
     cursor: zoom-in;

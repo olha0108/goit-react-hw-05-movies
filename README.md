@@ -2,7 +2,8 @@
 
 Create a basic routing for a movie search and storage application. Preview working application
 
-For the backend, use themoviedb.org API. You need to register (you can enter any data) and get API key. The following endpoints will be used in this work.
+For the backend, use themoviedb.org API(https://www.themoviedb.org/). 
+You need to register (you can enter any data) and get API key. The following endpoints will be used in this work.
 
 /trending/get-trending a list of the most popular movies for today to create a collection on the home page page.
 /search/search-movies keyword search for a movie on the movies page.
